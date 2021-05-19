@@ -21,8 +21,19 @@
   padding-top: 35vh;
   
 }
-
+.header > #waves2 {
+  padding-top: 15vh;
+  
+}
 .waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 100px;
+  max-height: 150px;
+}
+.waves2 {
   position: relative;
   width: 100%;
   height: 15vh;
