@@ -12,10 +12,14 @@
   position: relative;
   background: linear-gradient(60deg, #614385 0%, #ef629f 100%);
   color: white;
+  margin-top: 0px;
+  border-top: 0px;
+  padding-top: 0px;
 }
 
-.header > div {
+.header > #waves {
   padding-top: 35vh;
+  
 }
 
 .waves {
@@ -80,4 +84,56 @@
     -webkit-transform: translate3d(85px, 0, 0);
             transform: translate3d(85px, 0, 0);
   }
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 20px;
+  
+}
+.topnav{
+  background:transparent;
+  padding-bottom: 0px;
+  color:white;
+
+}
+.navbar-nav{
+  list-style: none;
+  color:white;
+
+}
+#navbarNav{
+  float:right;
+}
+.nav-link{
+  color:white;
+
+}
+.nav-link:hover{
+  text-decoration: none;
+
+}
+.title{
+  padding-top: 30px;
+  text-align: center;
+}
+.typewrite{
+  font-size: 40px;
+}
+#name{
+  font-size: 60px;
+  font-weight:900;
+}
+#title2{
+  text-align: center;
+  color:#614385;
+  font-size: 60px;
+  font-weight: bold;
+}
+#aboutmep{
+  text-align: center;
+  font-size: 30px;
+}
+.aboutme{
+  height: 100px;
 }
