@@ -4,20 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Stella Portfolio</title>
 </head>
 <body>
     
     <header id="header">
-        <div class="topnav"> 
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
-            </ul>
-        </div>
+    
         <div class="header">
-            <div>
+          <div class="topnav"> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+                  </ul>
+                </div>
+            </nav>
+          </div>
+          <div class="title">
+            <h4 style="color:#614385 ;">Hi,my name is</h4>
+            <h1 id="name">Stella Waithera</h1>
+            <p class="typewrite" data-period="2000" data-type='[ "I am a Fullstack Developer", "I am a Mathematician", "I founded AfricanTechGirl Org", "I believe in learning continously","I train programming","I am a datascentist" ]'>
+              <span class="wrap"></span>
+              </a>
+            </p>
+          </div>  
+          <div id="waves">
+              
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             <defs>
@@ -35,13 +68,17 @@
        
            
     </header>
-    <section class="home">
+    <section class="aboutme">
         <div>
-           
+           <h1 id="title2">About Me</h1>
+           <p id="aboutmep">I am a Kenyan-based techie.I love sharing any tech skill I learn,it allows me to understand the skill better.I founded AfricantechGirl in 2020 with the aim of sharing programming and digital skills to the younger generation in Africa.I also document my journey in tech by writting a tech blog.I have a curious personality and I push myself to learn.One of my tech mentors in the industry is Idris Sandu,I appreciate how he is revolutionalizing tech.</p>
+       
+        <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#61438588"></stop><stop offset="95%" stop-color="#ef629f88"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,133 0,133 C 70.4897435897436,162.3230769230769 140.9794871794872,191.64615384615382 229,173 C 317.0205128205128,154.35384615384618 422.57179487179485,87.73846153846155 502,87 C 581.4282051282051,86.26153846153845 634.7333333333332,151.39999999999998 703,178 C 771.2666666666668,204.60000000000002 854.4948717948719,192.66153846153847 935,180 C 1015.5051282051281,167.33846153846153 1093.2871794871794,153.95384615384614 1177,146 C 1260.7128205128206,138.04615384615386 1350.3564102564103,135.52307692307693 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path><defs><linearGradient id="gradient"><stop offset="5%" stop-color="#614385ff"></stop><stop offset="95%" stop-color="#ef629fff"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,266 0,266 C 73.66923076923075,245.93076923076922 147.3384615384615,225.86153846153846 219,220 C 290.6615384615385,214.13846153846154 360.3153846153847,222.48461538461538 458,247 C 555.6846153846153,271.5153846153846 681.4000000000001,312.2 759,302 C 836.5999999999999,291.8 866.0846153846154,230.7153846153846 936,220 C 1005.9153846153846,209.2846153846154 1116.2615384615383,248.93846153846152 1207,265 C 1297.7384615384617,281.0615384615385 1368.8692307692309,273.53076923076924 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
         </div>
     </section>
     <section class="about"></section>
     <section class="project"></section>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      <script type="text/javascript" src="assets/script.js"></script>
 </body>
 </html>
